@@ -33,14 +33,15 @@ section{
     background-color: white;
         padding:  30px 20px;
         border-radius: 5px;
-        
+        position: absolute;
+        transition: ease all 0.35s;
 
 }
 .item:hover {
     background-color: #d9832e;
     color: white;
-    margin-top: -5px;
-   transition: ease all 0.35s;
+    top: -5px;
+  
 }
 .item:hover .icon {
     border: 2px dotted white;
