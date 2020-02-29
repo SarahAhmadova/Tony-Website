@@ -403,8 +403,7 @@ section #services {
 }
 
 #portfolio .img-container:hover img {
-    border: 3px solid navy;
-    transform: scale(1.1);
+        transform: scale(1.1);
 }
 
 #portfolio .img-container:hover .overlay {
@@ -427,9 +426,25 @@ section #services {
     flex-direction: column;
 }
 
-#portfolio .img-container h3 {
-    font-size: 2vw;
+#portfolio  .col-md-4 h3 {
+    font-size: 80px;
     font-weight: 900;
+}
+#portfolio .col-xs-12  h3{
+    font-size: 40px;
+}
+#portfolio  .col-sm-6 h3{
+    font-size: 20px;
+}
+#portfolio .text {
+    position: absolute;
+    left: 0;
+text-align: center;
+}
+#portfolio .img-container:hover   .text{
+     left: 20%;
+      transition: .6s;
+   
 }
 
 /* TEST */
@@ -572,6 +587,7 @@ footer {
 
 footer .social ul {
     margin: 0;
+    
     list-style: none;
 }
 
