@@ -437,13 +437,15 @@ section #services {
     font-size: 20px;
 }
 #portfolio .text {
+    display: block;
+    width: 100%;
     position: absolute;
-    left: 0;
-text-align: center;
+    text-align: center;
+    right: 5%;
 }
-#portfolio .img-container:hover   .text{
-     left: 20%;
-      transition: .6s;
+#portfolio .img-container:hover .text{
+     transition: .3s;
+    transform: translateX(5%);
    
 }
 
