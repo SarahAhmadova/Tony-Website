@@ -444,7 +444,7 @@ section #services {
     right: 5%;
 }
 #portfolio .img-container:hover .text{
-     transition: .3s;
+     transition: .5s;
     transform: translateX(5%);
    
 }
